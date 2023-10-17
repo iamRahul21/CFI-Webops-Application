@@ -19,6 +19,8 @@ body {
 }
 
 .title {
+    font-family: 'Lobster', cursive;
+    font-weight: 400px;
     margin-top: 8vh;
     font-size: 5.5rem;
 }
@@ -56,9 +58,7 @@ button {
   }
 
 button:hover {
-    /* background-color: #23c483; */
     background-color: black;
-    /* box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); */
     box-shadow: 0px 10px 15px #A9A9A9;
     color: #fff;
     transform: translateY(-7px);
@@ -67,7 +67,6 @@ button:hover {
 button:active {
     transform: translateY(-1px);
   }
-
 
 .center {
     position: absolute;
