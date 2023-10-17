@@ -8,7 +8,6 @@ function getRandomImage() {
     .then((data) => {
       const imageUrl = data.urls.full;
       backgroundContainer.style.backgroundImage = `url(${imageUrl})`;
-
       // backgroundContainer.style.filter = 'grayscale(100%)';//make b&w bg
     })
     .catch((error) => {
@@ -28,4 +27,3 @@ refreshButton.addEventListener('click', function() {
     setRandomBackground(); 
     location.reload(); // Reload the page
 });
-
