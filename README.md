@@ -22,7 +22,7 @@ npm run all
 npm i
 npm run client
 ````
-2. To run server, use the following command:
+3. To run server, use the following command:
 ```terminal
 npm i
 npm run server
