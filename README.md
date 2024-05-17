@@ -27,6 +27,3 @@ npm run client
 npm i
 npm run server
 ````
-
-You can also check out the website here(prefereble to use in desktop): https://random-quote-generator-25p8.onrender.com 
-(quote fetching does not work properly in this free site but in localhost it does)
